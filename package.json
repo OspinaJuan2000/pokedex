@@ -1,0 +1,13 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "Pokedex challenge",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch sass/main.scss:docs/css/style.css ",
+    "compile:sass-minifier": "sass --watch sass/main.scss:docs/css/style.css --style compressed"
+  },
+  "keywords": [],
+  "author": "Juan Ospina",
+  "license": "ISC"
+}

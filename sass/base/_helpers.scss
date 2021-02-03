@@ -1,0 +1,67 @@
+/**
+ *Hoja de estilo que contiene clases auxiliares.
+ *@since: 02/02/2021.
+ *@author [Juan Ospina]
+ */
+
+.border-radius-5 {
+
+    border-radius: .5rem;
+}
+
+.border-radius-10 {
+
+    border-radius: 1rem;
+}
+
+.border-radius-15 {
+
+    border-radius: 1.5rem;
+}
+
+.container-pokemon {
+
+    @include container-center(120rem, 80%);
+    
+    @include mediaQuerie(medium) {
+
+        @include container-center(130rem, 90%);
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.container-pokemons {
+    
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    justify-items: center;
+    padding: 2rem;
+
+    @include mediaQuerie(small) {
+
+        gap: 5rem;
+    }
+
+    @include mediaQuerie(large) {
+
+        @include container-center(125rem, 100%);
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+.d-block {
+    display: block;
+}
+
+.text-transform-initial {
+
+    text-transform: initial;
+}
+
+.py-3 {
+
+    padding: 3rem 0;
+}

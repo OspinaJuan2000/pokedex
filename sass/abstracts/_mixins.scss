@@ -1,0 +1,72 @@
+/**
+ *Hoja de estilo que contiene todos los mixins de la aplicación.
+ *@since: 02/02/2021.
+ *@author [Juan Ospina]
+ */
+
+@mixin mediaQuerie($breakpoint) {
+
+    @if $breakpoint==very-small {
+
+        @media only screen and (max-width: 30em) {
+            @content
+        }
+
+        ;
+        /* < 480px */
+    }
+
+    @if $breakpoint==small {
+
+        @media only screen and (min-width: 30em) {
+            @content
+        }
+
+        ;
+        /* > 480px */
+    }
+
+    @if $breakpoint==medium {
+        
+        @media only screen and (min-width: 48em) {
+            @content
+        }
+
+        ;
+        /* > 768px */
+    }
+
+    @if $breakpoint==large {
+        
+        @media only screen and (min-width: 56.25em) {
+            @content
+        }
+
+        ;
+        /* > 900px */
+    }
+
+    @if $breakpoint==extra-large {
+        
+        @media only screen and (min-width: 75em) {
+            @content
+        }
+
+        ;
+        /* > 900px */
+    }
+}
+
+@mixin container-center($maxWidth, $width) {
+
+    max-width: $maxWidth;
+    width: $width;
+    margin: 0 auto;
+}
+
+@mixin background-image($imageUrl, $opacity) {
+    background-color: $white-color;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(255, 255, 255, $opacity), rgba(255, 255, 255, $opacity)), url($imageUrl);
+    background-size: cover;
+}

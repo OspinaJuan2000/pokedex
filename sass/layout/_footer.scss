@@ -1,0 +1,56 @@
+/**
+ *Hoja de estilo que contiene los estilos relacionados con el footer.
+ *@since: 02/02/2021.
+ *@author [Juan Ospina]
+ */
+
+.footer {
+    
+    background-color: $white-color;
+    @include background-image("../../img/bg-container.png", .6);
+
+    &__text {
+
+        font-size: 2rem;
+        grid-row: 1 / 2;
+        grid-column: 1 / -1;
+        text-transform: uppercase;
+
+        @include mediaQuerie(small) {
+
+            font-size: 3rem;
+        }
+
+        @include mediaQuerie(large) {
+
+            grid-column: 1;
+        }
+    }
+
+    &__image {
+
+        background-color: $primary-color;
+        cursor: pointer;
+        height: 9rem;
+        padding: .5rem;
+        transition: background-color .3s ease;
+        width: 9rem;
+
+        &:hover {
+
+            background-color: darken($primary-color, 5);
+        }
+
+        @include mediaQuerie(small) {
+
+            height: 13rem;
+            width: 13rem;
+        }
+
+        @include mediaQuerie(medium) {
+
+            height: 15rem;
+            width: 15rem;
+        }
+    }
+}

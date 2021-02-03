@@ -1,0 +1,41 @@
+/**
+ *Hoja de estilo que contiene los estilos relacionados con el header.
+ *@since: 02/02/2021.
+ *@author [Juan Ospina]
+ */
+
+.header {
+
+    align-items: center;
+    background-color: $secondary-color;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    padding: 1.3rem;
+
+    @include mediaQuerie(medium) {
+
+        justify-content: flex-start;
+    }
+
+    &__image {
+
+        height: 2.5rem;
+        width: 2.5rem;
+
+        @include mediaQuerie(medium) {
+
+            height: 3.5rem;
+            width: 3.5rem;
+        }
+    }
+
+
+    &__heading {
+        
+        color: $white-color;
+        margin-left: 1rem;
+        text-transform: uppercase;
+        font-size: 3rem;
+    }
+}

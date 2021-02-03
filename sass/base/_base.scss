@@ -1,0 +1,39 @@
+/**
+ *Hoja de estilo que contiene los estilos generales.
+ *@since: 02/02/2021.
+ *@author [Juan Ospina]
+ */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+a {
+
+    color: $black-color;
+    text-decoration: none;
+}
+
+img {
+
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+
+    margin: 0;
+}
+
+li {
+    
+    list-style: none;
+}

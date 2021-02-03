@@ -1,0 +1,22 @@
+/**
+ *Hoja de estilo que contiene estilos para los textos.
+ *@since: 02/02/2021.
+ *@author [Juan Ospina]
+ */
+
+html {
+
+    font-size: 62.5%;
+}
+
+body {
+
+    font-size: 1.6rem;
+    font-family: $primary-font;
+    line-height: 1.5;
+
+    @include mediaQuerie(very-small) {
+        
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,41 @@
+[{
+  "no": "024",
+  "name": "arbok",
+  "level": 100,
+  "type": "poison",
+  "hability": "intimidation",
+  "height": "3.5 m",
+  "weight": "65 Kg",
+  "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png",
+  "icon": "icon-poison"
+}, {
+  "no": "009",
+  "name": "blastoise",
+  "level": 98,
+  "type": "water",
+  "hability": "torrent",
+  "height": "1.6 m",
+  "weight": "85.5 Kg",
+  "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+  "icon": "icon-water"
+}, {
+  "no": "058",
+  "name": "growlithe",
+  "level": 97,
+  "type": "fire",
+  "hability": "intimidation",
+  "height": "0.7 m",
+  "weight": "19 Kg",
+  "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png",
+  "icon": "icon-fire"
+}, {
+  "no": "007",
+  "name": "squirtle",
+  "level": 100,
+  "type": "water",
+  "hability": "torrent",
+  "height": "0.5 m",
+  "weight": "9 Kg",
+  "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+  "icon": "icon-water"
+}]

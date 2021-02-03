@@ -1,0 +1,18 @@
+/**
+ *Hoja de estilo que contiene los estilos relacionados con el main.
+ *@since: 02/02/2021.
+ *@author [Juan Ospina]
+ */
+ 
+.main {
+
+    background-color: $primary-color;
+
+    @include mediaQuerie(extra-large) {
+
+        height: 72vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+}

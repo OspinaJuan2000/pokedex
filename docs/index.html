@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__image" src="img/pokeball.svg" alt="pokeball image">
+        <h1 class="header__heading">Pokedex_</h1>
+    </header>
+    <main class="main">
+        <div class="container-pokemon py-3">
+            <div class="pokemon">
+                <div class="pokemon__header border-radius-15">
+                    <img class="pokemon__icon" src="img/icon-psychic.svg" alt="icon pokemon skill">
+                    <p class="pokemon__name">Mewtwo</p>
+                </div>
+                <img class="pokemon__image" src="img/mewtwo.png" alt="pokemon image">
+            </div>
+            <ul class="stats border-radius-5">
+                <li class="stats__data">
+                    <span class="stats__title d-block">No.</span>
+                    <span class="stats__value d-block no">150</span>
+                </li>
+                <li class="stats__data">
+                    <span class="stats__title d-block">Level</span>
+                    <span class="stats__value d-block level">100</span>
+                </li>
+                <li class="stats__data">
+                    <span class="stats__title d-block">Type</span>
+                    <span class="stats__value d-block type">Psychic</span>
+                </li>
+                <li class="stats__data">
+                    <span class="stats__title d-block">Hability</span>
+                    <span class="stats__value d-block hability">Pressure</span>
+                </li>
+                <li class="stats__data">
+                    <span class="stats__title d-block">Height</span>
+                    <span class="stats__value d-block height text-transform-initial">2.0 m</span>
+                </li>
+                <li class="stats__data">
+                    <span class="stats__title d-block">Weight</span>
+                    <span class="stats__value d-block weight text-transform-initial">122.0 Kg</span>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container-pokemons">
+            <p class="footer__text">Others</p>
+            <img class="footer__image border-radius-10" src="img/arbok-mini.png" alt="arbok pokemon"
+                data-pokemon="arbok">
+            <img class="footer__image border-radius-10" src="img/blastoise-mini.png" alt="blastoise pokemon"
+                data-pokemon="blastoise">
+            <img class="footer__image border-radius-10" src="img/growlithe-mini.png" alt="growlithe pokemon"
+                data-pokemon="growlithe">
+            <img class="footer__image border-radius-10" src="img/squirtle-mini.png" alt="squirtle pokemon"
+                data-pokemon="squirtle">
+        </div>
+    </footer>
+
+    <script src="js/index.js" async></script>
+</body>
+
+</html>

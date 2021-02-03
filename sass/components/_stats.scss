@@ -1,0 +1,63 @@
+/**
+ *Hoja de estilo que contiene todos los estilos relacionados con el componente stats del pokemon.
+ *@since: 02/03/2021.
+ *@author [Juan Ospina]
+ */
+
+.stats {
+
+    background-color: $white-color;
+    @include background-image("../../img/bg-container.png", .7);
+
+    flex: 0 50%;
+    padding: 2rem;
+
+    @include mediaQuerie(medium) {
+
+        align-items: center;
+        display: grid;
+        flex: 0 60%;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: space-around;
+        margin-left: 5rem;
+    }
+
+    @include mediaQuerie(large) {
+
+        flex: 0 45%;
+    }
+
+    @include mediaQuerie(extra-large) {
+
+        flex: 0 40%;
+    }
+
+    &__data {
+
+        display: flex;
+        display: -webkit-flex;
+        font-weight: 700;
+        font-size: 1.8rem;
+        justify-content: space-between;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 2rem 0;
+
+        @include mediaQuerie(medium) {
+            display: block;
+            font-size: 2rem;
+        }
+    }
+
+    &__title {
+        font-weight: 400;
+    }
+
+    &__value {
+
+        @include mediaQuerie(extra-large) {
+
+            font-size: 2.8rem;
+        }
+    }
+}

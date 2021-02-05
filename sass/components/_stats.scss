@@ -7,7 +7,7 @@
 .stats {
 
     background-color: $white-color;
-    @include background-image("../../img/bg-container.png", .7);
+    @include background-image("../img/bg-container.png", .7);
 
     flex: 0 50%;
     padding: 2rem;

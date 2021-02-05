@@ -5,9 +5,8 @@
  */
 
 .footer {
-    
     background-color: $white-color;
-    @include background-image("../../img/bg-container.png", .6);
+    @include background-image("../img/bg-container.png", .6);
 
     &__text {
 

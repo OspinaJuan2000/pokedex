@@ -9,8 +9,7 @@
     background-color: $primary-color;
 
     @include mediaQuerie(extra-large) {
-
-        height: 72vh;
+        height: 67.5rem;
         display: flex;
         flex-direction: column;
         justify-content: center

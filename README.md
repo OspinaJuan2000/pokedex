@@ -5,4 +5,4 @@ Objetivo: Implementar una interfaz web responsive base de un Pokédex.
 ![Pokedex image](https://wiki.pragma.com.co/hs-fs/hubfs/Wiki1.png?width=900&name=Wiki1.png)
 
 ### Probar la aplicación.
-[Pokedex](https://epic-ramanujan-fa1a38.netlify.app/)
+[Pokedex](https://distracted-nightingale-649331.netlify.app/)
